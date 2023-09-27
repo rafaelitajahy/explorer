@@ -1,12 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  margin: 0;
 }
 
 #hero {
@@ -14,14 +9,13 @@ body {
   margin: 0 auto 72px;
 }
 
-#hero img {
-  max-width: 300px;
+#hero img {  
   margin-bottom: 72px;
 }
 
 h1 {
   font-family: 'Inter', sans-serif;
-  font-size: 48px;
+  font-size: 49px;
   line-height: 56px;
   font-weight: normal;
   margin-bottom: 32px;
@@ -31,7 +25,8 @@ h1 span {
   font-weight: bold;
 }
 
-span {
+span, 
+a {
   color: #ff9900;
 }
 
@@ -41,11 +36,6 @@ p,
 
   font-size: 14px;
   line-height: 28px;
-}
-
-a {
-  color: #ff9900;
-  text-decoration: none;
 }
 
 #footer a + a {
